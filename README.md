@@ -40,9 +40,9 @@ DeepSeek is a state-of-the-art large language model (LLM) for natural language u
 ---
 
 ## **Quick Links**
-- [DeepSeek Official API Docs](https://api.deepseek.com)
+- [DeepSeek Official API Docs](https://api-docs.deepseek.com)
 - [HuggingFace Models](https://huggingface.co/DeepSeek)
-- [Prebuilt Docker Images](https://hub.docker.com/u/thingsengine)
+- [Prebuilt Docker Images](https://hub.docker.com/)
 - [Production Template Gallery](./templates/)
 
 ---
