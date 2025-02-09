@@ -91,6 +91,24 @@ processor = BatchProcessor(
 )
 processor.run(batch_size=64)
 ```
+
+## **Applications & Use Cases**
+
+### Core Implementations
+- **Natural Language Processing**
+  ```markdown
+  - [DeepSeek-R1] Smart Contract Analysis: Auto-audit Solidity/Vyper code
+  - [DeepSeek-Chat] Legal Document Synthesis: Generate compliant templates
+  ```
+
+### Industry Solutions
+```mermaid
+flowchart LR
+    E[E-Commerce] --> Q["📊 Review Sentiment Analysis"]
+    F[Finance] --> R["💹 Fraud Detection Pipelines"]
+    H[Healthcare] --> S["🩺 Clinical Trial Optimization"]
+```
+
 ```mermaid
 %% Architecture Diagram – Complete Integrated View
 
@@ -134,3 +152,91 @@ flowchart TB
     style Integration fill:#F3E5F5,stroke:#9C27B0
     style End_User fill:#FFF8E1,stroke:#FFC107
 ```
+
+
+
+### [➕ Add Your Use Case](./examples) <!-- Link to use case templates -->
+
+---
+
+## **Contributing**
+
+### First-Time Contributors
+1. `Fork` this repository
+2. Create branch: `git checkout -b feat/your-contribution`
+3. Commit changes (`git commit -m 'Description'`)
+4. `Push` to branch
+5. Open `New Pull Request`
+
+```bash
+# For code contributions
+pip install -r dev-requirements.txt  # Testing setup
+pytest --cov=deepseek tests/        # Run validation
+```
+
+### Contribution Matrix
+| Type         | Guidelines                          | Review SLA   |
+|--------------|-------------------------------------|--------------|
+| Bug Fixes    | Include replicable test case        | 48 hours     |
+| New Features | Add API documentation + sample      | 72 hours     |
+| Examples     | Use `%%export``` code blocks        | 24 hours     |
+
+**[📜 Full Contribution Policy](/.github/CONTRIBUTING.md)** | **[💬 Code of Conduct](/.github/CODE_OF_CONDUCT.md)**
+
+---
+
+## **Community & Support**
+
+### Official Channels
+- **GitHub Discussions**: [Q&A](%%placeholder_github_link%%/discussions)
+- **Slack Workspace**: [Join here](%%placeholder_slack_invite%%)
+- **Stack Overflow**: Tag `#TE-deepseek`
+
+### Community Events
+```markdown
+- 🧑💻 Monthly Hackathons: [View Calendar](%%placeholder_event_calendar%%)
+- 🎥 "Office Hours" Live: Every Thursday 15:00 UTC
+```
+
+---
+
+## **FAQs**
+
+**Q1**: *DeepSeek vs. other LLMs?*
+👉 Focused on Chinese-English alignment and code generation efficiency.
+
+**Q2**: API access tiers?
+```json
+{
+  "Free Tier": "5k tokens/month",
+  "Pro Tier": "$0.002/1k tokens"
+}
+```
+
+**Q3**: Custom model training?
+Yes - [see finetuning guide](./docs/finetuning.md).
+
+**Q4**: Hardware requirements?
+Minimum: NVIDIA T4 (16GB VRAM). Recommended: A10G (24GB VRAM).
+
+**Q5**: Commercial use?
+MIT License allows commercial use with attribution.
+
+---
+
+
+## **Acknowledgments**
+
+- Core Contributors: [List](./AUTHORS.md)
+- Academic Partners: Tsinghua NLP Lab, Shanghai AI Lab
+- Tools: HuggingFace Transformers, vLLM optimization
+- Dataset Providers: [Disclaimer](#disclaimer)
+
+---
+
+## **Disclaimer**
+
+1. **No Warranty**: Use at your own risk. No guarantees of performance.
+2. **Content**: Outputs may contain inaccuracies - validate critically.
+3. **Third-Party**: Linked resources independent of DeepSeek.
+4. **Compliance**: User responsibility to follow local AI regulations.
