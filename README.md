@@ -224,6 +224,14 @@ MIT License allows commercial use with attribution.
 
 ---
 
+## **License**
+
+```text
+MIT License
+Copyright (c) 2025 Dr YF Lin
+
+Permission is hereby granted... (standard MIT terms)
+```
 
 ## **Acknowledgments**
 
